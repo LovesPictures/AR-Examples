@@ -1,11 +1,11 @@
 body 
 {
-	background-color: #eeeeee;
+/* 	background-color: #eeeeee; */
 /* 	background-image: url("../images/pixels.png"); */
 /* 	background-repeat: repeat;      /* repeat, no-repeat */
-	background-attachment: fixed;   /* scroll, fixed */
-	background-position: top left;  /* for no-repeat setting: top/bottom, left/right */
-	margin: 2% 5% 0% 5%;            /* top, left, bottom, right or TRBL */ */
+/* 	background-attachment: fixed;   scroll, fixed */
+/* 	background-position: top left;  /* for no-repeat setting: top/bottom, left/right */ */
+/* 	margin: 2% 5% 0% 5%;            /* top, left, bottom, right or TRBL */  */
 	
 	font-family: Georgia, Serif;	/* list font names in order of preference */
 	font-weight: normal;            /* normal, bold */
