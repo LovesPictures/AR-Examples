@@ -1,7 +1,7 @@
 body 
 {
 	background-color: #eeeeee;
-	background-image: url("../images/pixels.png");
+/* 	background-image: url("../images/pixels.png"); */
 	background-repeat: repeat;      /* repeat, no-repeat */
 	background-attachment: fixed;   /* scroll, fixed */
 	background-position: top left;  /* for no-repeat setting: top/bottom, left/right */
