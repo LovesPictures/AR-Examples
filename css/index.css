@@ -88,10 +88,10 @@ a .superImage
 	float:left;
 	
 	
-	/* Rounded corners */
+/* 	/* Rounded corners */
 	-moz-border-radius: 15px 15px 15px 15px;
 	-webkit-border-radius: 15px 15px 15px 15px;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px; */
 	
 	position: relative; 
 	
