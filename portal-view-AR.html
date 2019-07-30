@@ -107,20 +107,19 @@ function initialize()
 	////////////////////////////////////////////////////////////
 
 	// build markerControls
-// 	kanjiMarker = new THREE.Group();
-// 	scene.add(kanjiMarker);
+	kanjiMarker = new THREE.Group();
+	scene.add(kanjiMarker);
 	
-// 	let markerControls1 = new THREEx.ArMarkerControls(arToolkitContext, kanjiMarker, {
-// 		type : 'pattern',
-// 		patternUrl : "data/kanji.patt",
-		
-		
+	let markerControls1 = new THREEx.ArMarkerControls(arToolkitContext, kanjiMarker, {
+		type : 'pattern',
+		patternUrl : "data/kanji.patt",
+			
        // build markerControls  - changed marker to hiro
-	markerRoot1 = new THREE.Group();
-	scene.add(markerRoot1);
+// 	markerRoot1 = new THREE.Group();
+// 	scene.add(markerRoot1);
 	
-	let markerControls1 = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
-		type: 'pattern', patternUrl: "data/hiro.patt",
+// 	let markerControls1 = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
+// 		type: 'pattern', patternUrl: "data/hiro.patt",
 	})	
 		
 
