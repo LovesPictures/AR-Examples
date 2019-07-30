@@ -7,7 +7,7 @@ body
 /* 	background-position: top left;  /* for no-repeat setting: top/bottom, left/right */ */
 /* 	margin: 2% 5% 0% 5%;            /* top, left, bottom, right or TRBL */  */
 	
-	font-family:  CenturyGothic, Arial;	/* list font names in order of preference */
+	font-family:  Century Gothic, Arial;	/* list font names in order of preference */
 	font-weight: normal;            /* normal, bold */
 	font-style: normal;             /* normal, italic */
 	font-variant: normal;           /* normal, small-caps */
@@ -124,7 +124,7 @@ a:hover .superImage
 
 .bigTitle
 {
-	font-size: 42px;
+	font-size: 22px;
 	font-weight: bold;
 	font-variantx: small-caps;
 	color:#004;
