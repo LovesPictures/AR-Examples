@@ -18,7 +18,8 @@ body
 }
 
 /* map image container  */
-.responsive {
+.responsive 
+{
   width: 100%;
   height: auto;
 }
