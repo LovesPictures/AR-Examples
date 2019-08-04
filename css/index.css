@@ -7,7 +7,7 @@ body
 /* 	background-position: top left;  /* for no-repeat setting: top/bottom, left/right */ */
 /* 	margin: 2% 5% 0% 5%;            /* top, left, bottom, right or TRBL */  */
 	
-	font-family:  sans-serif;	/* list font names in order of preference */
+	font-family:  monospace;	/* list font names in order of preference */
 	font-weight: normal;            /* normal, bold */
 	font-style: normal;             /* normal, italic */
 	font-variant: normal;           /* normal, small-caps */
