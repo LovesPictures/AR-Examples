@@ -2,7 +2,8 @@ body
 {
   /* bacground image front page */
 
-	background-image: url("../images/ezgif.com-gif-maker.gif");
+	background-image: url("../images/ezgif.com-gif-maker.gif")no-repeat center center fixed;
+ 	background-size: cover;
 /* 	background-image: url("../images/pixels.png"); */
 /* 	background-repeat: repeat;      /* repeat, no-repeat */
 /* 	background-attachment: fixed;   scroll, fixed */
