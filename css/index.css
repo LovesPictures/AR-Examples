@@ -22,14 +22,13 @@ body
  h1 {
       position: absolute;
       padding-top: 50px;
-      //top: -60px;
       left: 180px;
       font-size: 10em;
       color: #{$light-white};
-     // transition: 0.5s;
+    
     };
     
-    //heading
+
     h3 {
       margin: 0 0 10px;
       color: #{$white};
@@ -61,7 +60,7 @@ body
         //color: #{$blue};
         background: #{$white};
       }
-/*     } */
+
 
 /* map image container  */
 .responsive 
