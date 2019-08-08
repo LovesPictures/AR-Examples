@@ -1,6 +1,10 @@
 body 
 {
-/* 	background-color: #eeeeee; */
+  // bacground image front page
+  // background: linear-gradient(#FFE29E, #DCF9B2);
+  background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84d7d666822745.5b234257f1af1.gif) no-repeat center center fixed;
+ background-size: cover;
+	
 /* 	background-image: url("../images/pixels.png"); */
 /* 	background-repeat: repeat;      /* repeat, no-repeat */
 /* 	background-attachment: fixed;   scroll, fixed */
