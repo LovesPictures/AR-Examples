@@ -18,6 +18,10 @@ body
 	color: #000000;                 /* hexadecimal RGB color code */
 	text-decoration: none;          /* none, underline, overline, line-through */
 	text-align: left;               /* left, right, center, justify */
+	
+	$black: #000;
+ 	$light-white: rgba(255,255,255,0.5);
+	$white: #FFF;
 }
  h1 {
       position: absolute;
@@ -25,6 +29,13 @@ body
       left: 180px;
       font-size: 10em;
       color: #{$light-white};
+	 
+	 
+/* 	old font-size: 32px;
+	font-weight: bold;
+	font-variantx: small-caps;
+	color:#004;
+	text-align: center; */
     
     };
     
@@ -177,11 +188,11 @@ a:hover .superImage
 
 .bigTitle
 {
-	font-size: 32px;
+/* 	font-size: 32px;
 	font-weight: bold;
 	font-variantx: small-caps;
 	color:#004;
-	text-align: center;
+	text-align: center; */
 /* 	text-shadow: -1px -1px 2px #fff, 1px 1px 3px #000;	 */
 }
 
