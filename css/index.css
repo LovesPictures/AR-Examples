@@ -19,6 +19,49 @@ body
 	text-decoration: none;          /* none, underline, overline, line-through */
 	text-align: left;               /* left, right, center, justify */
 }
+ h1 {
+      position: absolute;
+      padding-top: 50px;
+      //top: -60px;
+      left: 180px;
+      font-size: 10em;
+      color: #{$light-white};
+     // transition: 0.5s;
+    };
+    
+    //heading
+    h3 {
+      margin: 0 0 10px;
+      color: #{$white};
+      padding: 0;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    
+    p {
+      color: #{$white};
+      font-size: 16px;
+      padding: 0;
+      margin: 0;
+    }
+    
+    a {
+     padding: 10px 55px;
+      color: #{$white};
+      text-decoration: none;
+      border: solid 0.5px #{$white};
+      display: inline-block;
+      margin: 20px 0 0;
+      transition: 0.5s;
+      transform: translateY(-10px);
+      visibility: hidden;
+      opacity: 0;
+      
+      &:hover {
+        //color: #{$blue};
+        background: #{$white};
+      }
+/*     } */
 
 /* map image container  */
 .responsive 
