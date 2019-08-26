@@ -12,6 +12,8 @@
 	<script src="threex/threex-artoolkitcontext.js"></script>
 	<script src="threex/threex-arbasecontrols.js"></script>
 	<script src="threex/threex-armarkercontrols.js"></script>
+	<a-scene embedded artoolkit='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+</a-scene>
 </head>
 
 <body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
@@ -110,7 +112,10 @@ function initialize()
 	scene.add(markerRoot1);
 	let markerControls1 = new THREEx.ArMarkerControls(arToolkitContext, markerRoot1, {
 // 		type: 'pattern', patternUrl: "data/kanji.patt",
-		type: 'pattern', patternUrl: "data/hiro.patt",
+// 		type: 'pattern', patternUrl: "data/hiro.patt",
+		<a-marker type='barcode' value='1'>  // new code 
+     <a-box></a-box>
+</a-marker>
 	})
 
 	let geometry1	= new THREE.CubeGeometry(1,1,1);
