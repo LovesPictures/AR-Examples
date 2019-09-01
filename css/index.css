@@ -66,10 +66,10 @@ body {
 /* Page text links */
 a 
 {
-	padding-left: 10%;
+	padding-left: 3%;
 	font-size: 30px;
 	color:#fff;
-	margin: 13px 0px 0px 0px;
+	margin: 20px  0px 0px 10px;
 	text-decoration: none;
 	font-family: "Share Tech Mono", monospace;
 	
