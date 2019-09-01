@@ -56,7 +56,7 @@ body {
 	min-height: 450px;
 	/* next two lines for elder IE compatibility */
 	height: auto !important; 
-	height: 500px; 
+	height: 450px; 
 	
 
 	/* Background color and gradients */
