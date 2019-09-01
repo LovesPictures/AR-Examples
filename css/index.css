@@ -1,5 +1,37 @@
 body 
 {
+	
+	@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+html,
+body {
+  height: 100%;
+}
+body {
+  /*  responsive background */
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84d7d666822745.5b234257f1af1.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	
+	font-size: 16px;                /* font size */
+        color: #000000;                 /* hexadecimal RGB color code */ 
+	text-decoration: none;          /* none, underline, overline, line-through */
+	text-align: left;               /* left, right, center, justify */
+
+
+}
+  .responsive {
+   /*  responsive wrapper */
+   width: 100%;
+  height: auto;
+  }
+	
+/*
+	
+	code from here 
+	
 	background-color: #eeeeee;
 	background-image: url("../images/pixels.png");
 	background-repeat: repeat;      /* repeat, no-repeat */
@@ -12,10 +44,12 @@ body
 	font-style: normal;             /* normal, italic */
 	font-variant: normal;           /* normal, small-caps */
 	font-size: 16px;                /* font size */
-/* 	color: #000000;                 /* hexadecimal RGB color code */ */
+        color: #000000;                 /* hexadecimal RGB color code */ 
 	text-decoration: none;          /* none, underline, overline, line-through */
 	text-align: left;               /* left, right, center, justify */
+	
 }
+*/
 
 .fancy
 {
@@ -27,7 +61,6 @@ body
 	/* Background color and gradients */
 /* 	background: #eeeeee; */
 /* 	background: -moz-linear-gradient(top, #ffffff, #cccccc); */
-	background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84d7d666822745.5b234257f1af1.gif);
 /* 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cccccc)); */
 	/* really nifty translucence */
 /* 	background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.8), rgba(200, 200, 200, 0.8) ); */
