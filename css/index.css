@@ -53,10 +53,10 @@ body {
 .fancy  
 {
 	
-	min-height: 450px;
+	min-height: 450px;         	/* same size  */
 	/* next two lines for elder IE compatibility */
 	height: auto !important; 
-	height: 450px; 
+	height: 450px;            	/* same size  */
 	
 
 	/* Background color and gradients */
@@ -118,9 +118,9 @@ a:hover
 
 a .superImage
 {  
-	height: 450px;
-	width: 450px;
-	border: 1px solid #000000;  /* remove */
+	height: 450px;                	/* same size  */
+	width: 450px;			/* same size  */
+	border: 1px solid #000000;  	/* remove */
 	margin: 0px 20px 0px 0px;
 	float:left;
 	
