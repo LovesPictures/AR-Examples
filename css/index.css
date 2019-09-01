@@ -51,7 +51,7 @@ body {
 /* general image container  */
 .fancy  
 {
-	min-height: 450px;
+	min-height: 400px;
 	/* next two lines for elder IE compatibility */
 /* 	height: auto !important;  */
 	height: 350px ; 
