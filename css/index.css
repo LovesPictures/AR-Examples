@@ -109,7 +109,7 @@ a:hover
 
 a .superImage
 {  
-	height: 150px;
+	height: 225px;
 	width: 225px;
 	border: 1px solid #000000;
 	margin: 0px 20px 0px 0px;
@@ -117,9 +117,9 @@ a .superImage
 	
 	
 /* 	/* Rounded corners */
-	-moz-border-radius: 15px 15px 15px 15px;
+/* 	-moz-border-radius: 15px 15px 15px 15px;
 	-webkit-border-radius: 15px 15px 15px 15px;
-	border-radius: 15px 15px 15px 15px; */
+	border-radius: 15px 15px 15px 15px;  */
 	
 	position: relative; 
 	
