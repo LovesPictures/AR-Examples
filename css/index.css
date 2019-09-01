@@ -51,7 +51,7 @@ body {
 /* general image container  */
 .fancy  
 {
-	min-height: 400px;
+	min-height: 350px;
 	/* next two lines for elder IE compatibility */
 /* 	height: auto !important;  */
 	height: 350px ; 
@@ -74,13 +74,13 @@ body {
 /* Page text links */
 a 
 {
-	color: #fff;
+/* 	color: #fff; */
          font-size: 20px;
 	
 /* 	font-size: 30px; */
 /* 	font-weight: bold; */
 /* 	font-variantx: small-caps; */
-/* 	color:#00; */
+	color:#00;
 /* 	text-shadow: 1px 1px 0px #aaa; */
 	margin: 13px 0px 0px 0px;
 	text-decoration: none;
