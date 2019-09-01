@@ -11,7 +11,7 @@ body {
 /* 	background-position: top left;  /* for no-repeat setting: top/bottom, left/right */ */
 /* 	margin: 2% 5% 0% 5%;            /* top, left, bottom, right or TRBL */  */
 	
-	font-family:  monospace;	/* list font names in order of preference */
+/* 	font-family:  monospace;	list font names in order of preference */
 	font-weight: normal;            /* normal, bold */
 	font-style: normal;             /* normal, italic */
 	font-variant: normal;           /* normal, small-caps */
@@ -20,6 +20,7 @@ body {
 	text-decoration: none;          /* none, underline, overline, line-through */
 	text-align: left;               /* left, right, center, justify */
 	
+	font-family: "Share Tech Mono", monospace;
 	$black: #000;
  	$light-white: rgba(255,255,255,0.5);
 	$white: #FFF;
@@ -117,9 +118,9 @@ a:hover
 
 a .superImage
 {  
-	height: 325px;
-	width: 325px;
-	border: 1px solid #000000;
+	height: 350px;
+	width: 350px;
+	border: 1px solid #000000;  /* remove */
 	margin: 0px 20px 0px 0px;
 	float:left;
 	
