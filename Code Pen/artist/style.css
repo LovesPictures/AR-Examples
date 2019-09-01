@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+body {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* from top*/
+  background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84d7d666822745.5b234257f1af1.gif) no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: normal;
+}
+
+.container {
+  display: grid;
+  position: relative;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 0 40px;
+}
+
+.box {
+  justify-content: center;
+  align-items: center;
+  min-height: 140px;
+  /* next two lines for elder IE compatibility */
+  height: auto !important;
+  width: 350px;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transform: skew(2deg, 2deg);
+}
+.box__content {
+  position: relative;
+  padding: 20px;
+  /*  heading */
+  /*  page navigation */
+  /*  sketch heading & sketch navigation */
+}
+.box__content h1 {
+  position: absolute;
+  padding-top: 30px;
+  left: 180px;
+  font-size: 5em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.box__content h3 {
+  margin: 0 0 10px;
+  color: #fff;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+.box__content h2 {
+  margin: 0 0 0px;
+  color: #fff;
+  padding: 10px;
+  padding-bottom: 22px;
+  font-size: 34px;
+  font-weight: 500;
+}
+.box__content h3 {
+  margin: 0 0 10px;
+  color: #fff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.box__content p {
+  color: #fff;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  decoration: none;
+}
+.box__content a {
+  padding: 10px 0px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  margin: 20px 0 0;
+  transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+}
+.box__content a:hover {
+  background: #fff;
+}
+.box__content h1 {
+  top: 140px;
+}
+.box__content a {
+  visibility: visible;
+  opacity: 1;
+}

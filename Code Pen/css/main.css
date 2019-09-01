@@ -1,0 +1,76 @@
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+html,
+body {
+  height: 100%;
+}
+body {
+  /*  responsive background */
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84d7d666822745.5b234257f1af1.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* 			background-color: #999; */
+
+}
+  .responsive {
+   /*  responsive wrapper */
+   width: 100%;
+  height: auto;
+  }
+
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 48%;  // spaceing from left
+  transform: translate3d(-50%, -50%, 0);
+  font-family: "Share Tech Mono", monospace;
+  font-weight: normal;
+  letter-spacing: 0.8em;
+  color: #FFFFFF;
+  text-decoration: none;
+  a {
+
+    color: #FFFFFF;
+    text-decoration: none;
+    &:hover {
+
+      color: #FFFFFF;
+      cursor: context-menu;
+    }
+  }
+}
+h3 {
+  position: absolute;
+  top: 90%;
+  left: 48%;  /*  spaceing from left */
+  transform: translate3d(-50%, -50%, 0);
+  font-family: "Share Tech Mono", monospace;
+  font-weight: normal;
+  text-shadow: 0 2px 4px rgba(white, 0.25), 0 1px 2px rgba(white, 0.5);
+  color: #FFFFFF;
+  text-decoration: none;
+  a {
+   
+   color: #FFFFFF;
+    text-decoration: none;
+    &:hover {
+      
+      color: #FFFFFF;
+      cursor: context-menu;
+    }
+  }
+}
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+circle {
+  fill: none;
+  stroke-width: 1px;
+}

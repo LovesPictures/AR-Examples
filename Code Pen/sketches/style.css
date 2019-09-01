@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84d7d666822745.5b234257f1af1.gif) no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: normal;
+}
+
+.container {
+  display: grid;
+  position: relative;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 0 50px;
+}
+
+.box {
+  min-height: 150px;
+  /* next two lines for elder IE compatibility */
+  height: auto !important;
+  height: 150px;
+  width: 350px;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transform: skew(2deg, 2deg);
+}
+.box__content {
+  position: relative;
+  padding: 50px;
+}
+.box__content h1 {
+  position: absolute;
+  padding: 0;
+  top: -50px;
+  left: 200px;
+  font-size: 12em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.box__content h2 {
+  margin: 0 0 0px;
+  color: #fff;
+  padding: 10px;
+  padding-bottom: 22px;
+  font-size: 34px;
+  font-weight: 500;
+}
+.box__content h3 {
+  margin: 0 0 10px;
+  color: #fff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.box__content p {
+  color: #fff;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.box__content a {
+  padding: 0px 0px;
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  margin: 20px 0 0;
+  transition: 0.5s;
+  transform: translateY(-10px);
+  visibility: hidden;
+  opacity: 0;
+}
+.box__content a:hover {
+  color: #060621;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  transition: all 5300ms ease-in-out;
+}
+.box__content a {
+  visibility: visible;
+  opacity: 1;
+}
