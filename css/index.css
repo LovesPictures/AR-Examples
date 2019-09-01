@@ -23,14 +23,16 @@ body {
 	$black: #000;
  	$light-white: rgba(255,255,255,0.5);
 	$white: #FFF;
+	
 }
   h1 {
 /*       position: absolute; */
 	  text-align: center;
-      padding-top: 50px;
-      left: 180px;
-      font-size: 62px;
-      color: #{$light-white};
+         padding-top: 50px;
+         left: 180px;
+         font-size: 62px;
+         color: #{$light-white};
+         font-family: "Share Tech Mono", monospace;
 	  
 /* 	  font-size: 32px;
 	font-weight: bold;
@@ -53,7 +55,7 @@ body {
 	/* next two lines for elder IE compatibility */
 /* 	height: auto !important;  */
 	height: 350px ; 
-	height: 150px; 
+	height: 450px; 
 	
 	/* Background color and gradients */
 /* 	background: #eeeeee; */
@@ -72,13 +74,14 @@ body {
 /* Page text links */
 a 
 {
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: bold;
 	font-variantx: small-caps;
 	color:#00c;
 	text-shadow: 1px 1px 0px #aaa;
 	margin: 13px 0px 0px 0px;
 	text-decoration: none;
+	font-family: "Share Tech Mono", monospace;
 	
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -107,7 +110,7 @@ a:hover
 .superText
 {
 	color: #000;
-	text-shadow: 1px 1px 0px #aaa;
+/* 	text-shadow: 1px 1px 0px #aaa; */
 }
 
 a .superImage
