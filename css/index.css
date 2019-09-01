@@ -62,7 +62,7 @@ body {
 /* general image container  */
 .fancy  
 {
-	padding-left: 10%;
+	padding-left: 8%;
 	min-height: 450px;         	/* same size  */
 	/* next two lines for elder IE compatibility */
 	height: auto !important; 
