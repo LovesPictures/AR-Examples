@@ -66,6 +66,7 @@ body {
 /* Page text links */
 a 
 {
+	padding-top: 5%;
 	padding-left: 3%;
 	font-size: 30px;
 	color:#fff;
