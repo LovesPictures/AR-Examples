@@ -1,3 +1,5 @@
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
 body {
   /* bacground image front page */
 
@@ -49,7 +51,8 @@ body {
 {
 	min-height: 150px;
 	/* next two lines for elder IE compatibility */
-	height: auto !important; 
+/* 	height: auto !important;  */
+	height: 350px ; 
 	height: 150px; 
 	
 	/* Background color and gradients */
