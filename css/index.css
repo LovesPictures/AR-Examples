@@ -3,14 +3,9 @@
 body {
   /* bacground image front page */
 
-	  background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84d7d666822745.5b234257f1af1.gif) no-repeat center center fixed;
+	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84d7d666822745.5b234257f1af1.gif) no-repeat center center fixed;
   background-size: cover;
-	
-/* 	background-image: url("../images/pixels.png"); */
-/* 	background-repeat: repeat;      /* repeat, no-repeat */
-/* 	background-attachment: fixed;   scroll, fixed */
-/* 	background-position: top left;  /* for no-repeat setting: top/bottom, left/right */ */
-/* 	margin: 2% 5% 0% 5%;            /* top, left, bottom, right or TRBL */  */
+
 	
 /* 	font-family:  monospace;	list font names in order of preference */
 	font-weight: normal;            /* normal, bold */
@@ -23,20 +18,10 @@ body {
 	
 	font-family: "Share Tech Mono", monospace;
 	color:#fff;
-/* 	$black: #000; */
-/*  	$light-white: rgba(255,255,255,0.5); */
-	$white: #FFF;
-	
+	$white: #FFF;	
 	
 }
   h1 {
-/*       position: absolute; */
-/* 	 text-left: center;
-         padding-top: 50px;
-         left: 180px;
-         font-size: 62px;
-         color: #{$light-white}; */
-	  
 	position: absolute;
   	padding: 0;
   	top: 20px;
@@ -45,11 +30,6 @@ body {
   	color: rgba(255, 255, 255, 0.5);
         font-family: "Share Tech Mono", monospace;
 	  
-/* 	  font-size: 32px;
-	font-weight: bold;
-	font-variantx: small-caps;
-	color:#004;
-	text-align: center;  */
     }
 
 /* map image container  */
@@ -88,10 +68,7 @@ a
 {
 	
 	font-size: 30px;
-/* 	font-weight: bold; */
-/* 	font-variantx: small-caps; */
 	color:#fff;
-/* 	text-shadow: 1px 1px 0px #aaa; */
 	margin: 13px 0px 0px 0px;
 	text-decoration: none;
 	font-family: "Share Tech Mono", monospace;
@@ -123,23 +100,13 @@ a:hover
 .superText
 {
 	color: #000;
-/* 	text-shadow: 1px 1px 0px #aaa; */
 }
 
 a .superImage
 {  
 	height: 450px;                	/* same size  */
 	width: 450px;			/* same size  */
-/* 	border: 1px solid #000000;  	/* remove */ */
-/* 	margin: 0px 20px 0px 0px; */
 	float:left;
-	
-	
-/* 	/* Rounded corners */
-/* 	-moz-border-radius: 15px 15px 15px 15px;
-	-webkit-border-radius: 15px 15px 15px 15px;
-	border-radius: 15px 15px 15px 15px;  */
-	
 	position: relative; 
 	
 	-webkit-transition: all 300ms ease-in-out;
@@ -168,16 +135,5 @@ a:hover .superImage
 	-ms-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
 }  
-
-/* .bigTitle
-{
- font-size: 32px;
-	font-weight: bold;
-	font-variantx: small-caps;
-	color:#004;
-	text-align: center;  */
-/* 	text-shadow: -1px -1px 2px #fff, 1px 1px 3px #000;	  */
-} 
-*/
 
 
