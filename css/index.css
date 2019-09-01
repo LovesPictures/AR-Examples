@@ -51,12 +51,13 @@ body {
 /* general image container  */
 .fancy  
 {
-	min-height: 250px;
+	
+	min-height: 150px;
 	/* next two lines for elder IE compatibility */
 	height: auto !important; 
-	height: 350px ; 
-/* 	height: 450px;  */
+	height: 150px; 
 	
+
 	/* Background color and gradients */
 /* 	background: #eeeeee; */
 /* 	background: -moz-linear-gradient(top, #ffffff, #cccccc); */
