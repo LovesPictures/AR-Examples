@@ -74,11 +74,14 @@ body {
 /* Page text links */
 a 
 {
-	font-size: 30px;
-	font-weight: bold;
-	font-variantx: small-caps;
-	color:#00c;
-	text-shadow: 1px 1px 0px #aaa;
+	color: #fff;
+         font-size: 20px;
+	
+/* 	font-size: 30px; */
+/* 	font-weight: bold; */
+/* 	font-variantx: small-caps; */
+/* 	color:#00; */
+/* 	text-shadow: 1px 1px 0px #aaa; */
 	margin: 13px 0px 0px 0px;
 	text-decoration: none;
 	font-family: "Share Tech Mono", monospace;
