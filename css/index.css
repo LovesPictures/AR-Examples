@@ -53,7 +53,7 @@ body {
 .fancy  
 {
 	
-	min-height: 350px;
+	min-height: 450px;
 	/* next two lines for elder IE compatibility */
 	height: auto !important; 
 	height: 250px; 
