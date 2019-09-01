@@ -56,7 +56,7 @@ body {
 	min-height: 450px;
 	/* next two lines for elder IE compatibility */
 	height: auto !important; 
-	height: 450px; 
+	height: 500px; 
 	
 
 	/* Background color and gradients */
@@ -118,7 +118,7 @@ a:hover
 
 a .superImage
 {  
-	height: 550px;
+	height: 450px;
 	width: 450px;
 	border: 1px solid #000000;  /* remove */
 	margin: 0px 20px 0px 0px;
