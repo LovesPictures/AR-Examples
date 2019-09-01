@@ -52,10 +52,10 @@ body {
 .fancy  
 {
 	
-	min-height: 200px;
+	min-height: 250px;
 	/* next two lines for elder IE compatibility */
 	height: auto !important; 
-	height: 150px; 
+	height: 250px; 
 	
 
 	/* Background color and gradients */
