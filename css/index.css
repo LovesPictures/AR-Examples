@@ -51,11 +51,11 @@ body {
 /* general image container  */
 .fancy  
 {
-	min-height: 350px;
+	min-height: 250px;
 	/* next two lines for elder IE compatibility */
-/* 	height: auto !important;  */
+	height: auto !important; 
 	height: 350px ; 
-	height: 450px; 
+/* 	height: 450px;  */
 	
 	/* Background color and gradients */
 /* 	background: #eeeeee; */
@@ -80,7 +80,7 @@ a
 /* 	font-size: 30px; */
 /* 	font-weight: bold; */
 /* 	font-variantx: small-caps; */
-	color:#00;
+	color:#000000;
 /* 	text-shadow: 1px 1px 0px #aaa; */
 	margin: 13px 0px 0px 0px;
 	text-decoration: none;
