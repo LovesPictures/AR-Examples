@@ -4,21 +4,12 @@ body {
   /* bacground image front page */
 
 /*   background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84d7d666822745.5b234257f1af1.gif) no-repeat center center fixed;
-  background-size: cover; 
-	 */
+  background-size: cover; */
+	 
 
         background: url("background3.gif") no-repeat center center fixed; 
 	background-size: cover;  
 	
-/* 	background: url("https://github.com/LovesPictures/AR_js/blob/master/images/demo/background3.gif") no-repeat center center fixed; 
-	background-size: cover;  */
-	
-/* 	![background](demo/background3.gif) */
-	
-/* 	background-image: url(images/demo/background3.gif); */
-	
-/* 	background: url("~@/images/demo/background3.gif") center center no-repeat; */
-
 	
 /* 	font-family:  monospace;	list font names in order of preference */
 	font-weight: normal;            /* normal, bold */
