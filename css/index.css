@@ -6,8 +6,10 @@ body {
 /* 	background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84d7d666822745.5b234257f1af1.gif) no-repeat center center fixed;
   background-size: cover; */
 	
-	background: url(images/demo/background3.gif) no-repeat center center fixed;
-  background-size: cover;
+/* 	background: url(images/demo/background3.gif) no-repeat center center fixed; */
+/*   background-size: cover; */
+	
+	
 /* 	background-image: url(images/demo/background3.gif); */
 
 	
@@ -25,6 +27,17 @@ body {
 	$white: #FFF;	
 	
 }
+
+html {
+    background: url(images/demo/background3.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
   h1 {
 	position: absolute;
   	padding: 0;
