@@ -107,6 +107,7 @@ a:hover
 	-o-transition: all 300ms ease-in-out;
 	-ms-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out; 
+	display: inline-block;
 }
 
 .superText
