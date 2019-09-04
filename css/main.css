@@ -24,6 +24,7 @@ h1 {
   position: absolute;
   text-decoreation: none;
 /*   font-size: 40vw; */
+	
    font-size: calc(160px + 0.10vw);  /*  min / max responsive text */
 }
 
@@ -40,8 +41,8 @@ h2 { /*  navigation */
   color: #fff;
   position: absolute;
   text-decoreation: none;
-/*   margin: 20px; */
-  font-size: calc(22px + 0.10vw);  /*  min / max responsive text */
+/*   margin: 20px; */ 
+  font-size: calc(34px + 0.10vw);  /*  min / max responsive text */
 }
 p {
   color: #fff;
