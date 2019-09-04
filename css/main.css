@@ -44,7 +44,7 @@ h2 { /*  navigation */
   text-decoreation: none;
 /*   margin: 20px; */ 
   font-size: calc(34px + 0.10vw);  /*  min / max responsive text */
- padding: 10px;    /*  here */
+ padding: 30px;    /*  here */
 }
 p {
   color: #fff;
