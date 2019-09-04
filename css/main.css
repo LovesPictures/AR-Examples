@@ -40,7 +40,7 @@ h3 {
 h2 { /*  navigation */
 /*  display: inline;   /*  here */ */
   color: #fff;
-  position: absolute;
+/*   position: absolute; */
   text-decoreation: none;
 /*   margin: 20px; */ 
   font-size: calc(34px + 0.10vw);  /*  min / max responsive text */
