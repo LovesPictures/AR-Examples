@@ -38,7 +38,7 @@ h3 {
 }
 
 h2 { /*  navigation */
- display: inline;   /*  here */
+/*  display: inline;   /*  here */ */
   color: #fff;
   position: absolute;
   text-decoreation: none;
